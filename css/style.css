@@ -263,6 +263,90 @@ button i{
 	
 	
 }
+/*feather csss*/
+.container{
+    /*background-color: aquamarine;*/
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-right:34px;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: bisque;
+    margin-left: 30px;
+    transition: 0.2s linear;
+    border-radius: 5px;
+}
+.box:hover{
+    box-shadow:1px 2px 3px 2px #888888;
+    transform: translate(-3px);
+}
+
+.content{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.content h5{
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color:#353535;
+    margin-top: 40px;
+    filter:drop-shadow(3px 3px 2px rgba(255,255,255,0.3));
+       
+       
+}
+
+.number{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-right: 23px;
+
+}
+.number h1{
+color:#f4f7ff;
+font-size:80px;
+margin-top: 50px;
+transition: 0.2s linear;
+
+}
+.box:hover h1
+{
+    text-shadow: 2px 2px #FF0000;
+
+}
+.box:hover .icon{
+    text-shadow: 2px 2px #AB7442;
+			
+			
+}
+.icon{
+    background-color: #f5f5f5;
+    height: 60px;
+    width: 60px;
+    /*margin-top: -50px;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0 0 30px;
+    border-radius: 5px;
+    transition: 0.2s linear;
+    
+}
+.icon i{
+    color:#AB7442;
+    font-size:40px;
+    font-weight: 900;
+    margin:0 0 0 8px;
+   
+}
 
 
 
